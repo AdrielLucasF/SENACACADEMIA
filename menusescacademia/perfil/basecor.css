@@ -1,0 +1,162 @@
+/* styles.css */
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f4f4f4; /* Branco */
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #003366; /* Azul mais escuro */
+}
+
+header {
+    background-color: #f15a22; /* Laranja */
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f4f4f4; /* Branco */
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #001f3f; /* Azul mais escuro */
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f15a22; /* Laranja */
+    padding: 15px;
+    text-align: center;
+}
+
+footer img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para a lista horizontal */
+.perfil-info {
+    margin-top: 20px;
+}
+
+.horizontal-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc; /* Adicione uma linha divisória */
+}
+
+.horizontal-list li {
+    flex-basis: 30%; /* Define a largura de cada item */
+    text-align: center;
+    padding: 10px;
+}
+
+/* styles.css */
+
+/* ... seus estilos gerais existentes ... */
+
+/* Estilos específicos para a lista horizontal */
+.perfil-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex-basis: 30%;
+    background-color: #3498db; /* Azul */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff; /* Branco */
+}
+
+.column h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Estilos específicos para o Calendário de Pagamentos */
+.calendario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.mes {
+    flex-basis: 30%;
+    background-color: #2ecc71; /* Verde */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.mes h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.mes p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.mes a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff; /* Branco */
+    background-color: #3498db; /* Azul */
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.mes a:hover {
+    background-color: #2980b9; /* Azul mais escuro */
+}
+
+.mes a[disabled] {
+    background-color: #ccc; /* Cinza para links desativados */
+    cursor: not-allowed;
+}

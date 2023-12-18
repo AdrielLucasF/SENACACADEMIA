@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="basecor.css">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="perfil.html">Perfil</a></li>
+                    <li><a href="pagamento.html">Pagamento</a></li>
+                    <li><a href="#">Sair</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Área de Pagamento</h1>
+            <p>Aqui você pode visualizar e realizar pagamentos. Mantenha sua conta sempre em dia!</p>
+            
+            <!-- Calendário de Pagamentos -->
+            <div class="calendario">
+                <div class="mes" id="jan">
+                    <h2>Janeiro</h2>
+                    <p>Status: Pago</p>
+                    <a href="pagamento_jan.pdf" download>Baixar PDF</a>
+                </div>
+
+                <div class="mes" id="fev">
+                    <h2>Fevereiro</h2>
+                    <p>Status: Pago</p>
+                    <a href="pagamento_fev.pdf" download>Baixar PDF</a>
+                </div>
+
+                <!-- aqui é pra ter todos os meses mas to com preguiça =) -->
+
+                <div class="mes" id="out">
+                    <h2>Outubro</h2>
+                    <p>Status: Aguardando Pagamento</p>
+                    <a href="#" disabled>Baixar PDF</a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
